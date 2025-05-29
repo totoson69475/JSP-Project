@@ -1,0 +1,60 @@
+#wrap{
+    width: 100%;
+    max-width: 1340px;
+    margin: auto;
+    padding: 10px;
+    /*border: 1px solid black;*/
+}
+body{
+    font-family: 'Nanumgothic';
+}
+/* 검색 분류 (전공/교양, 학년 등) */
+select{
+    width: 180px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    font-family: 'Nanumgothic';
+    /* 화살표 이미지 변경 */
+    /* appearance: none;    기본 스타일 화살표 제거 */
+    /* -webkit-appearance: none;    chrome, safari용 화살표 제거 */
+    /* -moz-appearance: none;       Firefox용 화살표 제거 */
+    /* background: url('../img/down.png') no-repeat 95% 50%;    저장한 이미지를 화살표로 지정 */
+    /* no-repeat: 반복X 
+    n1% n2% : 가로 위치(n1)와 세로 위치(n2) 지정*/
+    /* background-size: 10px;   이미지 사이즈 조정 */
+    /* padding-right: 30px;     화살표 겹침 방지 */
+    
+}
+/* 검색어 입력 박스 */
+.inputSearch{
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    font-family: 'Nanumgothic';
+}
+/* 검색 버튼 */
+.buttonSearch{
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: rgb(193, 229, 245);
+    font-family: 'Nanumgothic';
+    cursor: pointer;
+}
+.buttonSearch:hover{
+    background-color: rgb(101, 202, 245);
+}
+.studentTable{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.studentTable thead{
+    border-bottom: 2px solid black;
+}
+.studentTable td{
+    width: 100px;
+    text-align: center;
+}
